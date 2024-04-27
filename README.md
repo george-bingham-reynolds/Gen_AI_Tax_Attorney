@@ -4,7 +4,7 @@ This project contains the code for an end-to-end infrastructure for a Generative
 
 ## Creating Reference Database
 
-The infrastructure used in this project is Retrieval Augmented Generative AI for legal research. As such, the first step is the create the reference database of legal precedents. This process is done in the notebook pull_irs_legal_determinations, which scrapes the PDFs of written determinations on the official IRS website. Source PDFs can be found here: https://www.irs.gov/downloads/irs-wd. After pulling the PDFs, the notebook stores useable ones in a cloud storage bucket for later reference.
+The infrastructure used in this project is Retrieval Augmented Generative AI for legal research. As such, the first step is to create the reference database of legal precedents. This process is done in the notebook pull_irs_legal_determinations, which scrapes the PDFs of written determinations on the official IRS website. Source PDFs can be found here: https://www.irs.gov/downloads/irs-wd. After pulling the PDFs, the notebook stores useable ones in a cloud storage bucket for later reference.
 
 ## Creating RAG Model
 
